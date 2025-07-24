@@ -32,7 +32,7 @@ We take reasonable measures to protect your data, including secure storage in Fi
 User Rights
 You may:
 - Request deletion of your account and data
-- Contact us with questions at: zaynwsiddiqui@gmail.com
+- Contact us with questions at: support@siddgames.com
 ‍
 Children’s Privacy
 Our app is not intended for children under 18. We do not knowingly collect information from children.
@@ -41,4 +41,4 @@ Changes to This Policy
 We may update this policy. Changes will be posted in the app or on this page.
 ‍
 Contact Us
-If you have any questions, please contact us at: zaynwsiddiqui@gmail.com.
+If you have any questions, please contact us at: support@siddgames.com
