@@ -12,7 +12,7 @@ body {
   max-width: 800px;
   margin: 60px auto;
   padding: 20px 20px;
-  background: black;
+  background: #121212;
   border-radius: 12px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
@@ -25,12 +25,12 @@ header {
 header h1 {
   font-size: 2.5em;
   margin-bottom: 10px;
-  color: #111;
+  color: white;
 }
 
 header p {
   font-size: 1.2em;
-  color: #666;
+  color: gray;
 }
 
 .hero {
@@ -40,13 +40,13 @@ header p {
 
 .hero h2 {
   font-size: 2em;
-  color: #222;
+  color: white;
   margin-bottom: 10px;
 }
 
 .hero p {
   font-size: 1.1em;
-  color: #444;
+  color: white;
 }
 
 .buttons {
