@@ -32,6 +32,10 @@ header p {
   font-size: 1.2em;
   color: gray;
 }
+.heroimage{
+  max-width: 300px;
+  max-height: auto;
+}
 
 .hero {
   text-align: center;
