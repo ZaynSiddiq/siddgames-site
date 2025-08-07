@@ -61,13 +61,13 @@ main {
 }
 
 .text p {
-  font-size: 1.75rem;
+  font-size: 1.2rem;
   color: #ccc;
   margin-bottom: 1.5rem;
 }
 
 .appstore-badge img {
-  height: 150px;
+  height: 60px;
 }
 
 .mockup {
