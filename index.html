@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sidd Games | Mobile games for iPhone</title>
   <meta name="description" content="Sidd Games makes mobile games for iPhone. Play Dice Duel, a modern take on a classic dice game, and Astro Drift, an idle space mining game." />
-  <meta name="theme-color" content="#0b0a12" />
+  <meta name="theme-color" content="#07070d" />
   <meta property="og:title" content="Sidd Games" />
   <meta property="og:description" content="Mobile games for iPhone: Dice Duel and Astro Drift." />
   <meta property="og:type" content="website" />
@@ -14,16 +14,16 @@
   <link rel="icon" type="image/png" href="SG.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <nav class="nav">
     <div class="wrap">
-      <a href="index.html" class="brand">Sidd <span>Games</span></a>
+      <a href="index.html" class="brand"><img src="SG.png" alt="" width="52" height="30" /><span>Sidd Games</span></a>
       <div class="nav-links">
-        <a href="#dice-duel">Dice Duel</a>
         <a href="#astro-drift">Astro Drift</a>
+        <a href="#dice-duel">Dice Duel</a>
         <a href="support.html">Support</a>
       </div>
     </div>
@@ -31,63 +31,73 @@
 
   <header class="hero">
     <div class="wrap">
-      <span class="eyebrow">Games for iPhone</span>
-      <h1>Small games. <em>Big</em> replay value.</h1>
-      <p class="lede">Sidd Games builds polished mobile games you can pick up in seconds and keep coming back to.</p>
-      <div class="btn-row">
-        <a class="btn btn-primary" href="#dice-duel">Dice Duel</a>
-        <a class="btn btn-ghost" href="#astro-drift">Astro Drift</a>
+      <div>
+        <span class="kicker">Indie mobile studio</span>
+        <h1>Games you<br />can't <span>put down.</span></h1>
+        <p class="lede">Sidd Games makes fast, polished games for iPhone. Mine the stars, roll the dice, and come back for more.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="#games">Play our games</a>
+          <a class="btn btn-ghost" href="support.html">Get support</a>
+        </div>
       </div>
-      <div class="hero-icons">
-        <a href="#dice-duel" aria-label="Dice Duel"><img src="assets/dice-icon.jpg" alt="Dice Duel app icon" width="88" height="88" /></a>
-        <a href="#astro-drift" aria-label="Astro Drift"><img src="assets/astro-icon.jpg" alt="Astro Drift app icon" width="88" height="88" /></a>
+      <div class="hero-art" aria-hidden="true">
+        <img class="a" src="assets/astro-2.jpg" alt="" width="600" height="1299" />
+        <img class="b" src="assets/astro-3.jpg" alt="" width="600" height="1299" />
       </div>
     </div>
   </header>
 
+  <div class="strip" aria-hidden="true">
+    <div class="wrap"><span>Astro Drift</span><span>Dice Duel</span><span>Free on the App Store</span></div>
+  </div>
+
   <main>
-    <section class="game" id="dice-duel">
-      <div class="wrap game-grid">
-        <div class="game-copy">
-          <div class="game-head">
-            <img src="assets/dice-icon.jpg" alt="" width="64" height="64" />
-            <div>
-              <span class="tag">Dice strategy</span>
-              <h2>Dice Duel</h2>
-            </div>
-          </div>
-          <p class="blurb">A modern take on a classic dice game. Take on a smart AI or real opponents, place your bets, and decide when to keep rolling and when to bank it.</p>
-          <ul class="features">
-            <li>Play against AI or real opponents in real-time matches</li>
-            <li>Quick Bet, Casual, Normal, and Champions modes, each with its own rules and betting limits</li>
-            <li>Totems with special powers like Double Roll, Free Reroll, and Bonus Points</li>
-            <li>Daily rewards, custom gameboards, and a leaderboard to climb</li>
-          </ul>
-          <div class="game-links">
-            <a class="badge" href="https://apps.apple.com/us/app/dice-duel/id6747691660" aria-label="Download Dice Duel on the App Store">
-              <img src="download.png" alt="Download on the App Store" />
-            </a>
-            <a class="text-link" href="privacy.html">Privacy Policy</a>
-          </div>
+    <section id="games">
+      <div class="wrap">
+        <div class="section-title">
+          <h2>Our games</h2>
+          <p>Two games, both free to download on iPhone.</p>
         </div>
-        <div class="shots" aria-label="Dice Duel screenshots">
-          <img src="assets/dice-1.jpg" alt="Dice Duel home screen with a Play against AI card and daily reward" loading="lazy" width="598" height="1300" />
-          <img src="assets/dice-3.jpg" alt="Dice Duel match in progress with six dice rolled" loading="lazy" width="598" height="1300" />
-          <img src="assets/dice-4.jpg" alt="Dice Duel game setup with bet amount and totem selection" loading="lazy" width="598" height="1300" />
+        <div class="cards">
+          <a class="card astro" href="#astro-drift">
+            <div class="card-art" aria-hidden="true">
+              <img src="assets/astro-2.jpg" alt="" loading="lazy" width="600" height="1299" />
+              <img src="assets/astro-3.jpg" alt="" loading="lazy" width="600" height="1299" />
+            </div>
+            <div class="card-body">
+              <div class="card-head">
+                <img src="assets/astro-icon.jpg" alt="" width="60" height="60" />
+                <h3>Astro Drift</h3>
+              </div>
+              <div class="chips"><span class="chip">Idle</span><span class="chip">Space</span><span class="chip">Upgrades</span></div>
+              <p>An idle space mining game. Start small, scale infinitely.</p>
+              <span class="more">Learn more &rarr;</span>
+            </div>
+          </a>
+          <a class="card dice" href="#dice-duel">
+            <div class="card-art" aria-hidden="true">
+              <img src="assets/dice-1.jpg" alt="" loading="lazy" width="598" height="1300" />
+              <img src="assets/dice-3.jpg" alt="" loading="lazy" width="598" height="1300" />
+            </div>
+            <div class="card-body">
+              <div class="card-head">
+                <img src="assets/dice-icon.jpg" alt="" width="60" height="60" />
+                <h3>Dice Duel</h3>
+              </div>
+              <div class="chips"><span class="chip">Dice</span><span class="chip">Strategy</span><span class="chip">Multiplayer</span></div>
+              <p>A modern take on a classic dice game. Outroll the AI or real opponents.</p>
+              <span class="more">Learn more &rarr;</span>
+            </div>
+          </a>
         </div>
       </div>
     </section>
 
-    <section class="game flip" id="astro-drift">
-      <div class="wrap game-grid">
-        <div class="game-copy">
-          <div class="game-head">
-            <img src="assets/astro-icon.jpg" alt="" width="64" height="64" />
-            <div>
-              <span class="tag">Idle space mining</span>
-              <h2>Astro Drift</h2>
-            </div>
-          </div>
+    <section class="band astro" id="astro-drift">
+      <div class="wrap">
+        <div class="copy">
+          <span class="tagline">Idle space mining</span>
+          <h2>Astro Drift</h2>
           <p class="blurb">An idle space mining game for players who love watching numbers grow, with just enough action to keep things exciting. Start small. Scale infinitely.</p>
           <ul class="features">
             <li>Swipe between lanes to collect gems and fire lasers at asteroids and enemies</li>
@@ -110,15 +120,33 @@
       </div>
     </section>
 
-    <section class="about">
+    <section class="band dice flip" id="dice-duel">
       <div class="wrap">
-        <div class="about-card">
-          <h2>Questions, bugs, or ideas?</h2>
-          <p>Sidd Games is an indie studio run by Zayns LLC. Player feedback shapes what gets built next, so reach out any time.</p>
-          <a class="btn btn-primary" href="mailto:support@siddgames.com">support@siddgames.com</a>
+        <div class="copy">
+          <span class="tagline">Dice strategy</span>
+          <h2>Dice Duel</h2>
+          <p class="blurb">A modern take on a classic dice game. Take on a smart AI or real opponents, place your bets, and decide when to keep rolling and when to bank it.</p>
+          <ul class="features">
+            <li>Play against AI or real opponents in real-time matches</li>
+            <li>Quick Bet, Casual, Normal, and Champions modes, each with its own rules and betting limits</li>
+            <li>Totems with special powers like Double Roll, Free Reroll, and Bonus Points</li>
+            <li>Daily rewards, custom gameboards, and a leaderboard to climb</li>
+          </ul>
+          <div class="game-links">
+            <a class="badge" href="https://apps.apple.com/us/app/dice-duel/id6747691660" aria-label="Download Dice Duel on the App Store">
+              <img src="download.png" alt="Download on the App Store" />
+            </a>
+            <a class="text-link" href="privacy.html">Privacy Policy</a>
+          </div>
+        </div>
+        <div class="shots" aria-label="Dice Duel screenshots">
+          <img src="assets/dice-1.jpg" alt="Dice Duel home screen with a Play against AI card and daily reward" loading="lazy" width="598" height="1300" />
+          <img src="assets/dice-3.jpg" alt="Dice Duel match in progress with six dice rolled" loading="lazy" width="598" height="1300" />
+          <img src="assets/dice-4.jpg" alt="Dice Duel game setup with bet amount and totem selection" loading="lazy" width="598" height="1300" />
         </div>
       </div>
     </section>
+
   </main>
 
   <footer>
@@ -126,8 +154,8 @@
       <div class="footer-links">
         <a href="support.html">Support</a>
         <a href="terms.html">Terms of Service</a>
-        <a href="privacy.html">Dice Duel Privacy</a>
         <a href="asteroid-privacy-policy.html">Astro Drift Privacy</a>
+        <a href="privacy.html">Dice Duel Privacy</a>
       </div>
       <p>&copy; <script>document.write(new Date().getFullYear())</script> Zayns LLC. All rights reserved.</p>
     </div>
