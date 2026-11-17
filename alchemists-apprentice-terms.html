@@ -18,8 +18,14 @@
 <body>
   <nav class="nav">
     <div class="wrap">
-      <a href="index.html" class="brand">Sidd <span>Games</span></a>
-      <div class="nav-links">
+      <a href="index.html" class="brand" aria-label="Sidd Games home">
+        <img class="brand-logo" src="apple-touch-icon.png" alt="" width="36" height="36" />
+        <span class="brand-name">Sidd <span>Games</span></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
         <a href="index.html#astro-drift">Astro Drift</a>
         <a href="index.html#dice-duel">Dice Duel</a>
         <a href="index.html#alchemists-apprentice">Alchemist&rsquo;s Apprentice</a>
@@ -111,5 +117,6 @@
       <p>&copy; <script>document.write(new Date().getFullYear())</script> Zayns LLC. All rights reserved.</p>
     </div>
   </footer>
+  <script src="nav.js"></script>
 </body>
 </html>
